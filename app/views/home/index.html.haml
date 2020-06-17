@@ -1,0 +1,13 @@
+.content
+  .content2nd
+    %h1.home Home Page
+    %h2.home
+      .kolor
+        User: 
+        #{current_user.email}
+    %h2.home
+      Team: #{current_user.team}
+    =image_tag 'logo.png'
+    =image_tag 'ball_home.png'
+    %h5
+      = link_to('Logout', destroy_user_session_path, method: :delete)

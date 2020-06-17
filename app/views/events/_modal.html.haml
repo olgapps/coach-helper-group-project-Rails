@@ -1,0 +1,27 @@
+#accordion
+  - event.players.each do |player|
+    .card
+      #headingTwo.card-header
+        %h5.mb-0
+          %button.btn.btn-link.collapsed{"aria-controls" => "collapseTwo", "aria-expanded" => "false", "data-target" => "#collapseTwo#{player.id}", "data-toggle" => "collapse"}
+            %tr
+              %td= player.number
+              %td= player.name
+              %td= player.surname
+    .collapse{"aria-labelledby" => "headingTwo", "data-parent" => "#accordion", :id => "collapseTwo#{player.id}"}
+      .card-body
+        %td
+          %h4 Yellow cards: #{player.yellow_cards}
+          %h5 Edit player data                                        
+          = bootstrap_form_for player, remote: true, url: event_player_path(event.id, player.id, format: :js) do |f|
+            .field.align-middle  
+              %tr
+                %td.color
+                  Injury: 
+                  .field
+                    = f.text_field :injury
+                %td yellow card
+                %td=f.select :yellow_cards, [ 0, 1 ]
+                %td red card
+                %td=f.select :suspended, [ 0, 1 ]
+                = f.submit "Update" 

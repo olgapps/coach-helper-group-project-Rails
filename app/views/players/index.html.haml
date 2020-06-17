@@ -1,0 +1,30 @@
+.content
+  .content2nd
+    %h1.player List of your Players  
+    %h1.event.play
+      = link_to 'Create New Player', new_player_path(), class: "przycisk"
+    %table
+      %tr.list
+        %td.list Number
+        %td.list Name
+        %td.list Surname
+        %td.list Injury
+        %td.list
+      - @players.each do |player|
+        %tr{:class => player.suspended || player.injury != "" ? 'suspended' : 'available'}
+          %td.date
+            = player.number
+          %td.date1
+            = player.name.capitalize
+          %td.date1
+            = player.surname.capitalize
+          %td.date1
+            = player.injury
+          %td
+            %button.btn.btn-outline-primary.btn-sm
+              = link_to 'Edit', edit_player_path(player), :class => ".btn.btn-outline-primary.btn-sm"
+              |
+              \#{link_to "Delete", player_path(player), method: :delete, data: { confirm: 'Are you sure?' }, :class => ".btn.btn-outline-primary.btn-sm"}
+    %br
+
+

@@ -1,0 +1,149 @@
+.content
+  .content2nd
+    %h1.event List of your Events  
+    #accordion
+      .card-event
+        #headingTwo.card-header
+          %h5.mb-0
+            %button.btn.btn-link.collapsed.przycisk{"aria-controls" => "collapseTwo", "aria-expanded" => "false", "data-target" => "#collapseTwo", "data-toggle" => "collapse" }
+              Create New Event
+        .p.break .
+      .collapse{"aria-labelledby" => "headingTwo", "data-parent" => "#accordion", :id => "collapseTwo"}
+        .card-body.event
+          = bootstrap_form_for @event do |f|
+            %tr
+              %td.create
+                #datetimepicker4.input-group.date{"data-target-input" => "nearest"}
+                  =f.text_field(:event_date, class: "datetimepicker-input", data: {target:"#datetimepicker4"})
+                  .input-group-append{"data-target" => "#datetimepicker4", "data-toggle" => "datetimepicker"}
+                    .input-group-text.baczek
+                      Pick date
+                      %i.fa.fa-calendar
+              = f.text_field :opponent, class: "col-md-3 control-label"
+              %td.create
+                .actions
+                  = f.submit "Submit"
+                :javascript
+                  $(function () {
+                      $('#datetimepicker4').datetimepicker({
+                          format: 'L',
+                          format: 'YYYY-MM-DD'
+                      });
+                  });
+          %hr        
+          %h4 
+            Import CSV file
+          = form_tag import_events_url, multipart: true do
+            = file_field_tag :file
+            = submit_tag 'Import CSV', class: "baczek"
+    %table
+      %tr.list
+        %td.list
+        %td.list
+        %td.list
+        %td.list
+        %td.list
+        %td.list
+    #accordion
+      - @events.each do |event|
+        .card-event{:class => event.closed_match ? 'suspended' : 'available'}
+          #headingTwo.card-header
+            %h5.mb-0
+              %tr
+                - if event.closed_match == false
+                  %td.date.ls
+                    = event.event_date.to_date
+                  %td.date1.ls
+                    = event.opponent.titleize
+                  %td.date1.ls
+                    %button.baczek{"data-target" => "#event-modal-play-book-#{event.id}", "data-toggle" => "modal", :type => "button"}
+                      Add play book
+                  %td.date1.ls
+                    %button.baczek{"data-target" => "#event-modal-add-player-#{event.id}", "data-toggle" => "modal", :type => "button"}
+                      Add players
+                  %td.date1.ls
+                    %button.baczekClose{"data-target" => "#event-modal-edit-players-data-#{event.id}", "data-toggle" => "modal", :type => "button"}
+                      Close event
+                  %td.date1.ls
+                    %button.baczek.collapsed{"aria-controls" => "collapseTwo", "aria-expanded" => "false", "data-target" => "#collapseTwo#{event.id}", "data-toggle" => "collapse"}
+                      Play books
+                  %td.date1.ls
+                    %button.btn.btn-outline-primary.btn-sm
+                      = link_to 'Edit', edit_event_path(event), :class => ".btn.btn-outline-primary.btn-sm"
+                      |
+                      \#{link_to "Delete", event_path(event), method: :delete, data: { confirm: 'Are you sure?' }, :class => ".btn.btn-outline-primary.btn-sm"}
+              %tr  
+                -#- if Date.current > event.event_date.to_date
+                - if event.closed_match == true
+                  %td.date.ls
+                    = event.event_date.to_date
+                  %td.date1.ls
+                    = event.opponent.titleize
+                  %td.date1.ls
+                    %button.btn.btn-primary.collapsed.active{"data-target-cent-id" => event.id, "aria-controls" => "collapseTwo", "aria-expanded" => "false", "data-target" => "#collapseTwo#{event.id}", "data-toggle" => "collapse"}
+                      Play books
+        .cent.collapse{"data-cent-id" => event.id, "aria-labelledby" => "headingTwo", "data-parent" => "#accordion", :id => "collapseTwo#{event.id}"}
+          .card-body
+            %table.table.table-striped
+              %thead
+              - event.play_books.each do |play_book|
+                %tr
+                  %td
+                    = play_book.name
+                  %td 
+                    %button.btn.btn-outline-primary.btn-sm
+                      = link_to 'Show', play_book_path({id: play_book.id }), class: ".btn.btn-outline-primary.btn-sm"
+  - @events.each do |event|
+    .modal.fade{id: "event-modal-edit-players-data-#{event.id}", "aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+      .modal-dialog{:role => "document"}
+        .modal-content
+          .modal-header
+            %h4#myModalLabel.modal-title Edit players data after match
+            %button.close{"data-dismiss" => "modal", :type => "button"} x
+          .modal-body
+            = render :partial => "modal", locals: { event: event }
+
+          .modal-footer
+            = form_for event, url: close_event_path(event.id) do |f|
+              = f.hidden_field :event_id, :value => event.id
+              = f.submit "Close event"
+
+
+  - @events.each do |event|
+    .modal.fade{id: "event-modal-add-player-#{event.id}", "aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+      .modal-dialog{:role => "document"}
+        .modal-content
+          .modal-header
+            %h4#myModalLabel.modal-title Add players to match
+            %button.close{"data-dismiss" => "modal", :type => "button"} x
+          .modal-body
+            - @players.each do |player|
+              - if player.suspended == false && player.injury == "" && !event.players.include?(player)
+                %table.table.table-striped
+                  %thead
+                    %tr
+                      %td= player.number
+                      %td= player.name
+                      %td= player.surname
+                      %td
+                        = button_to 'Add', assign_event_player_path({ event_id: event.id, id: player.id }), method: :patch, class: "baczek"
+
+  - @events.each do |event|
+    .modal.fade{id: "event-modal-play-book-#{event.id}", "aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+      .modal-dialog{:role => "document"}
+        .modal-content
+          .modal-header
+            %h4#myModalLabel.modal-title Add play book to event
+            %button.close{"data-dismiss" => "modal", :type => "button"} x
+          .modal-body
+            - @play_books.each do |play_book|
+              - unless event.play_books.include?(play_book)  
+                %table.table.table-striped
+                  %thead
+                    %tr
+                      %td= play_book.name
+                      %td
+                        %button.btn.btn-outline-primary.btn-sm
+                          = link_to 'Add', event_play_book_path({event_id: event.id, id: play_book.id }), method: :patch, class: ".btn.btn-outline-primary.btn-sm"
+
+    %br

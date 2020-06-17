@@ -1,0 +1,26 @@
+%h1.event.start Coach Helper
+#access.container
+  #access.d-flex.justify-content-center
+    #access.card
+      .text-center
+        %h2.login Log in
+        = form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+          .form-group.login
+            = f.label :email
+            %br/
+            = f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control"
+          .form-group.login
+            = f.label :password
+            %br/
+            = f.password_field :password, autocomplete: "current-password", class: "form-control"
+          - if devise_mapping.rememberable?
+            .form-check
+              = f.check_box :remember_me, class: "form-check-input"
+              = f.label :remember_me, class: "form-check-labe"
+          .actions
+            = f.submit "Log in", class: "btn btn-primary login"
+        = render "devise/shared/links"
+.login.start
+  %h1.imageski
+    =image_tag 'logo.png'
+    =image_tag 'ball_home.png'

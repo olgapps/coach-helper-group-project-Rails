@@ -1,0 +1,1562 @@
+commit 5bacbbe041ad501e1ae6b00ce1bfaec63075222f
+Author: olga <olg262@gmail.com>
+Date:   Fri Jul 26 12:47:57 2019 +0200
+
+    adding players in modal
+
+commit 6ca61f6eb406c1deab2f7140cdc4692be3cc73c6
+Author: olga <olg262@gmail.com>
+Date:   Fri Jul 26 12:17:40 2019 +0200
+
+    working modal for each player
+
+commit 1bf5343385f2e025368892d4373887d7c8017151
+Author: olga <olg262@gmail.com>
+Date:   Fri Jul 26 10:16:26 2019 +0200
+
+    many to many
+
+commit 6d8e8ce4ef10b672b6ca3487da5844374c2d15fd
+Merge: a96fa92 fb0bad2
+Author: olga <olg262@gmail.com>
+Date:   Thu Jul 25 15:32:02 2019 +0200
+
+    Merge branch 'calendarCd' into eventplayer
+
+commit fb0bad234de71c491bfab5dcf7a5ae3aaa5c6fdb
+Author: olga <olg262@gmail.com>
+Date:   Thu Jul 25 15:31:19 2019 +0200
+
+    FixTShirtsOverDrawings
+
+commit a96fa92d664f6d7a8bd3d027977128a91da47c11
+Author: olga <olg262@gmail.com>
+Date:   Thu Jul 25 15:22:04 2019 +0200
+
+    AddPlayersToEvents
+
+commit a66164605d617c1bc6c181bec641218506ae0147
+Merge: 6658f7a 63421f0
+Author: olga <olg262@gmail.com>
+Date:   Thu Jul 25 09:27:24 2019 +0200
+
+    Merge branch 'develop' into calendarCd
+
+commit 63421f0aef005a9c4c4f21b57df74421bbaa0457
+Merge: fb43855 218ae9e
+Author: olga <olg262@gmail.com>
+Date:   Thu Jul 25 09:24:04 2019 +0200
+
+    Merge branch 'develop' of https://github.com/pawelwelfle/CoachHelper into develop
+
+commit 6658f7a2a25b3abff8132ca45f9c459363777800
+Author: olga <olg262@gmail.com>
+Date:   Thu Jul 25 09:19:24 2019 +0200
+
+    all improvements
+    
+    Signed-off-by: olga <olg262@gmail.com>
+
+commit a3a32b16b8a25dd07d60f9d4f4c9809dab459141
+Author: olga <olg262@gmail.com>
+Date:   Wed Jul 24 14:29:47 2019 +0200
+
+    different routes for update method
+
+commit 5df25bbf15d462d9307bc1ecc2842cc6dd635290
+Merge: a656df5 fb43855
+Author: olga <olg262@gmail.com>
+Date:   Wed Jul 24 13:56:21 2019 +0200
+
+    working rubocop some rspec repairs solving conflicts
+
+commit 218ae9e0cb48f4747bef49ca84ce9770f110456c
+Merge: 3d13c9f 5a5de7d
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 24 10:45:54 2019 +0200
+
+    Merge pull request #49 from Kristrox/master
+    
+    Merge pull request #48 from Kristrox/develop
+
+commit 5a5de7d5686fd984db7da509969732cbe111d3d3
+Merge: ff2b8e9 3d13c9f
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 24 10:45:17 2019 +0200
+
+    Merge pull request #48 from Kristrox/develop
+    
+    [Fix] { MASTER MERGE } WEEK 3
+
+commit 3d13c9f85137251d44412310ac36fe39613b90da
+Merge: d878d87 898e02e
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 24 10:44:10 2019 +0200
+
+    Merge pull request #47 from Kristrox/DeployApp
+    
+    GemFileUpdate
+
+commit d878d871daf42fec2ee651cdc54dafa6334365ea
+Merge: 046e289 ff2b8e9
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 24 10:43:15 2019 +0200
+
+    Merge pull request #46 from Kristrox/master
+    
+    Master
+
+commit 898e02ed78346d46a7b8164f7d818e1402db7727
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Wed Jul 24 10:41:44 2019 +0200
+
+    GemFileUpdate
+
+commit fb43855b9144b90b0f656d4a14f7e2bdbb8d8ec0
+Merge: 0d2639f 046e289
+Author: olga <olg262@gmail.com>
+Date:   Wed Jul 24 10:01:22 2019 +0200
+
+    new develop
+
+commit ff2b8e9f4dff48b271ba38845771135732867cfe
+Merge: 2f4ffc1 7ff70b0
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 24 09:54:22 2019 +0200
+
+    Merge pull request #45 from Kristrox/DeployApp
+    
+    [add] capistrano config, unicorn for production
+
+commit 046e289bbf265ba8eb829a1bada01bfdaa508544
+Merge: 0727d06 6a8b5c4
+Author: Kamil Celejewski <44023880+kcc112@users.noreply.github.com>
+Date:   Wed Jul 24 09:54:05 2019 +0200
+
+    Merge pull request #44 from Kristrox/UpdateCalendar
+    
+    Update calendar n.2
+
+commit a656df5028f87e109e9856cdb4d2f1e6fdbf73fb
+Author: olga <olg262@gmail.com>
+Date:   Wed Jul 24 09:53:28 2019 +0200
+
+    finished adding yellow i red cards
+
+commit 7ff70b09bff11168b73b3be7d68ad0e976462dcb
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Wed Jul 24 09:52:37 2019 +0200
+
+    [add] capistrano config, unicorn for production
+
+commit 6a8b5c45b0e3806316e9461f5adf1c5f1327e632
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Wed Jul 24 09:48:51 2019 +0200
+
+    NewLine
+
+commit ad0170de2e81b3cce217aeca881fbe3f76fa9e4b
+Merge: e9d6341 699c81b
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Wed Jul 24 09:45:45 2019 +0200
+
+    Merge branch 'UpdateCalendar' of https://github.com/pawelwelfle/CoachHelper into UpdateCalendar
+
+commit e9d634101c7cbf0a89dec0699c3ee568cff7efd4
+Merge: e9ecf36 32b00ea
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Wed Jul 24 09:41:45 2019 +0200
+
+    Merge branch 'develop' into UpdateCalendar
+
+commit 699c81bc1c62f8621df6bb279670696dc7cc686b
+Merge: e9ecf36 0727d06
+Author: pawelwelfle <49279196+pawelwelfle@users.noreply.github.com>
+Date:   Wed Jul 24 09:37:05 2019 +0200
+
+    Merge branch 'develop' into UpdateCalendar
+
+commit 0727d0665a22c82ed7ffd4c7b13fd468b8e4c18e
+Merge: 0fc5414 2f4ffc1
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 24 09:31:37 2019 +0200
+
+    Merge pull request #42 from Kristrox/master
+    
+    Merge pull request #41 from Kristrox/develop
+
+commit 32b00eaafb1f155213d1b4f5cd1d6959daf54290
+Merge: 333af69 0fc5414
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Wed Jul 24 09:31:29 2019 +0200
+
+    GitPull24.07.2019
+
+commit 2f4ffc14735f2751557ef2917cd5c35b33c00e25
+Merge: a758d69 0fc5414
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 24 09:29:53 2019 +0200
+
+    Merge pull request #41 from Kristrox/develop
+    
+    { MASTER MERGE }  WEEK 3
+
+commit 0fc54144b4562ad96a3009a9c342230dfd93b332
+Merge: 5a54b29 3a37eb5
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 24 09:18:31 2019 +0200
+
+    Merge pull request #40 from Kristrox/wip/dashed_arrows
+    
+    [Add] dashed arrows
+
+commit 3a37eb5e0c3de07ace6ae65da12e1ad8641d063d
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Tue Jul 23 22:01:23 2019 +0200
+
+    [Add] dashed arrows
+
+commit f5e7b612f42eb0e14f5657735a918031de6c1473
+Author: olga <olg262@gmail.com>
+Date:   Tue Jul 23 20:23:40 2019 +0200
+
+    working yellow and red cards
+
+commit 5a54b29809a70db6a5f45285d09da5358215e885
+Merge: 6ef16e0 db7dc95
+Author: Kamil Celejewski <44023880+kcc112@users.noreply.github.com>
+Date:   Tue Jul 23 16:51:46 2019 +0200
+
+    Merge pull request #39 from Kristrox/AddTravisSupport
+    
+    FixMigrationsAndCombineIntoOne
+
+commit db7dc95756d6cbe2f5148a815a7234fc35a130b5
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 16:49:16 2019 +0200
+
+    FixRubocop
+
+commit 46e33becfe91887fe89e14ee6f5644d7d5e0ffa1
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 16:42:15 2019 +0200
+
+    AddBrakemanSupport
+
+commit e9ecf36c08fae0ea32b6024883f3ecef2e82b858
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Tue Jul 23 16:37:48 2019 +0200
+
+    [fix] Nothing
+
+commit 865e00957f5c96dae34372e58ac40631d44ffc46
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 16:25:02 2019 +0200
+
+    FixEnter
+
+commit cce0e75804141b3c4c11ecf0a4857a0df5707651
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 16:22:13 2019 +0200
+
+    FixMigrationsAndCombineIntoOne
+
+commit 2f160b7d7ebe01d8a5eab394ff62ec6dcdc416c7
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Tue Jul 23 14:21:20 2019 +0200
+
+    FormatChangesInEventJS
+
+commit 6ef16e0a930005fd7fcb4817de1aa3f1379c76ae
+Merge: ec21f2c 1a0daac
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 14:13:00 2019 +0200
+
+    Merge pull request #37 from Kristrox/fix/offenses
+    
+    [Add] api event test
+
+commit ec21f2c7d125215a50f2ef95254c0d06fbb20ec3
+Merge: d6e3947 a7063e1
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 14:07:29 2019 +0200
+
+    Merge pull request #36 from Kristrox/AddTravisSupport
+    
+    [Fix] Fix Travis File And Add Database File For Travis
+
+commit a7063e16666a06c38e48a6ac2407302543283777
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 14:01:22 2019 +0200
+
+    FixSchema
+
+commit 1a0daaca3d5f47aa5fd0d0a8000f0648e450aa0c
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Tue Jul 23 14:00:55 2019 +0200
+
+    [Add] api event test
+
+commit f37b836ac16609db17536241cff72c19f167635d
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 13:18:29 2019 +0200
+
+    FixDatabaseNaming
+
+commit 13530222af5e158fe0081d3316a80662e967e280
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 13:14:53 2019 +0200
+
+    FixTravisDatabase
+
+commit ddb85af55942fdfacff4213478a2e2636971a003
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 11:25:16 2019 +0200
+
+    FixTravisFileAndAddDatabaseFileForTravis
+
+commit d6e39474f12ec179e636080ced3d4a6515d5e5f7
+Merge: 5900966 79fb134
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 11:04:55 2019 +0200
+
+    Merge pull request #35 from Kristrox/AddTravisSupport
+    
+    Fix Travis File
+
+commit 79fb1342970628f648682fc39d3a0dca08a02a5e
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 11:03:51 2019 +0200
+
+    FixTravisFile
+
+commit 59009666d432bdf5ea9182f597e2ed422e7b7ed4
+Merge: a3e5516 affc1d6
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 10:58:20 2019 +0200
+
+    Merge pull request #34 from Kristrox/AddTravisSupport
+    
+    Add Travis Yml File
+
+commit 352211c69bb76848038bd8199627fe32f4d7f462
+Author: olga <olg262@gmail.com>
+Date:   Tue Jul 23 10:57:52 2019 +0200
+
+    disply of player list with collapse option
+
+commit affc1d6aa244ddfb7287e43f52365a44977310b4
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 10:53:08 2019 +0200
+
+    AddedTravisYmlFile
+
+commit a3e5516c2d65ca0d515c6957ea1a95642e60a479
+Merge: 513189d 0938c61
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Tue Jul 23 09:12:30 2019 +0200
+
+    Merge pull request #33 from Kristrox/fix/offenses
+    
+    Fix/offenses
+
+commit 0938c61e2f44359fa93d37535dce40640239aa45
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Tue Jul 23 09:08:11 2019 +0200
+
+    [Add] tests
+
+commit e3fbdd24a8fabef24169c655883988636863c15e
+Author: olga <olg262@gmail.com>
+Date:   Mon Jul 22 16:49:09 2019 +0200
+
+    pop-up window and association of user and events
+
+commit f61ce8d22b18bdc6b6e393c15bdfff6f94b70b29
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Mon Jul 22 16:47:59 2019 +0200
+
+    LittleUpdateOfEventJS
+
+commit 25883c4aa0faa97177e71462274a44cdea8fc840
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Mon Jul 22 16:36:50 2019 +0200
+
+    Update#datetimepicker2
+
+commit 2172072b5b2c3f85ccb6bcc6285690d3f196667c
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Mon Jul 22 15:53:58 2019 +0200
+
+    PickerDateUpdateAndProblemsResolve
+
+commit 3da18ce8b0d1093ff75cd2332c5ba02afb0cb0ea
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Mon Jul 22 13:40:03 2019 +0200
+
+    AddDatePickerNewEvent
+
+commit 78121184fcf1c7654ce075076ce04f39badea3a4
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Mon Jul 22 11:58:54 2019 +0200
+
+    [Fix] rubocop offenses [Remove] auto generated rspec tests
+
+commit 0ecc2afe6c915a12872b9fa57d6d9fb6ecf6423c
+Author: olga <olg262@gmail.com>
+Date:   Mon Jul 22 10:39:18 2019 +0200
+
+    reltion of event and user
+
+commit 333af694c3a94f9c0d076220e1c86cf8a5aa6f58
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Mon Jul 22 10:13:27 2019 +0200
+
+    Delete - in PlayerModel
+
+commit 5424dc111b8b1c1e5adf005ead4e4b003bb57900
+Merge: a7573a3 513189d
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Mon Jul 22 10:03:18 2019 +0200
+
+    Merge branch 'develop' of https://github.com/pawelwelfle/CoachHelper into develop
+
+commit a7573a30f404660620c2319f59443583f2ea6019
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Mon Jul 22 10:03:06 2019 +0200
+
+    TestCheck
+
+commit 0d2639fc1ec78464738824137ae9681f9fc78af3
+Author: olga <olg262@gmail.com>
+Date:   Mon Jul 22 09:46:42 2019 +0200
+
+    drag and drop
+
+commit 513189d12f03df320e3521eecdd32041ad0a381a
+Merge: 7499e4b c8b0295
+Author: olgapps <24681131+olgapps@users.noreply.github.com>
+Date:   Mon Jul 22 09:39:06 2019 +0200
+
+    Merge pull request #32 from Kristrox/CalendarReactComponent
+    
+    Calendar react component
+
+commit c8b0295c5f86e53d63fe4796dbc24772a4e3c473
+Merge: 3543a3b f3c488d
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Mon Jul 22 09:38:17 2019 +0200
+
+    ConfictFixWithPlayer
+
+commit f3c488d220681bb83882edf501c4d65ae38fceb6
+Merge: 8c9cce2 7499e4b
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Mon Jul 22 09:33:45 2019 +0200
+
+    Merge branch 'develop' of https://github.com/pawelwelfle/CoachHelper into develop
+
+commit 7499e4bf13ab350e9e382cc70b63c1686ce5339f
+Merge: eadbcec bc0d3ab
+Author: olgapps <24681131+olgapps@users.noreply.github.com>
+Date:   Mon Jul 22 09:18:21 2019 +0200
+
+    Merge pull request #30 from Kristrox/wip/tests
+    
+    Wip/tests
+
+commit eadbcecf055f1fc3dc6714732dcbabe782fff9b4
+Merge: 026f348 9eb85c2
+Author: olgapps <24681131+olgapps@users.noreply.github.com>
+Date:   Mon Jul 22 09:18:04 2019 +0200
+
+    Merge pull request #31 from Kristrox/wip/play_book
+    
+    Wip/play book
+
+commit 9eb85c2a2e9917a2593bea941b90ae7df06b963b
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Mon Jul 22 09:11:11 2019 +0200
+
+    [Fix] offenses
+
+commit 2e8f0428e4e214d0c2a5f39d6893118c4bda7d9a
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Sun Jul 21 22:08:14 2019 +0200
+
+    [Fix] rubocop [Add] bundler-audit
+
+commit bdc9f91371ae824bfd73ce0afab0c2aa4ae33a9b
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Sun Jul 21 20:01:34 2019 +0200
+
+    [Add] arrows
+
+commit d66ee5fc5650f6e230b33fbab1239729f801bc6e
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Sun Jul 21 15:15:43 2019 +0200
+
+    [Add] selection numbers on tshirts with players list
+
+commit f12a80fc4a620825de901966c1d039b635c55cf5
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Sat Jul 20 22:35:49 2019 +0200
+
+    [Add] start  building api
+
+commit ad131801589998edc916f54031d91fbc39600ea3
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Sat Jul 20 19:15:21 2019 +0200
+
+    [fix] new tshirts position, background color changed to white
+
+commit 45bf870376e328f63f555947599a851d4651878c
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Sat Jul 20 18:11:05 2019 +0200
+
+    [fix] background and palyer choice form position
+
+commit 5bb05d0ae763a81ed32311919a2ba6a540288c83
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Sat Jul 20 15:53:08 2019 +0200
+
+    [Add] change button name after click (start/stop) [Remove] BottomToolBar
+
+commit bc0d3abc922a0538e260308f348163a536594658
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Sat Jul 20 14:27:00 2019 +0200
+
+    [add] finished players controller test, new calender and home controler test
+
+commit 7a6a728b777bfc645dd0d366579c55a6d4251adb
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 19 20:37:23 2019 +0200
+
+    [add] player controller #edit #new test
+
+commit 026f348b68e076d16f9ed0fc0c8751471b91f2f1
+Merge: a6cae29 e233929
+Author: Kamil Celejewski <44023880+kcc112@users.noreply.github.com>
+Date:   Fri Jul 19 16:39:52 2019 +0200
+
+    Merge pull request #29 from Kristrox/wip/DrawArea
+    
+    [add] simplecov
+
+commit e233929f9bbf31f3dd8eb8f47761b379832f9533
+Merge: 944e8cf a6cae29
+Author: Kamil Celejewski <44023880+kcc112@users.noreply.github.com>
+Date:   Fri Jul 19 16:39:04 2019 +0200
+
+    Merge branch 'develop' into wip/DrawArea
+
+commit 944e8cf2ca8d53d8267db1f40f9d3c7260b49c2b
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 19 16:34:59 2019 +0200
+
+    [add] simplecov
+
+commit a6cae2910b3fa38a7ce57981213147b847131599
+Merge: ef51039 89df3b0
+Author: Kamil Celejewski <44023880+kcc112@users.noreply.github.com>
+Date:   Fri Jul 19 15:38:57 2019 +0200
+
+    Merge pull request #25 from Kristrox/wip/DrawArea
+    
+    [Add] Components: Drawing, Ball  [Fix] fullscreen  [Remove] old  drag&drop
+
+commit ef510393adc049c1c2ddf6de46efc182a9b7a91c
+Merge: 1a0bd3e f134f2c
+Author: olgapps <24681131+olgapps@users.noreply.github.com>
+Date:   Fri Jul 19 15:36:14 2019 +0200
+
+    Merge pull request #27 from Kristrox/wip/tests
+    
+    [Add] simple models and controller test [Fix] player model
+
+commit 89df3b032101e70834574fcdf78cabe0a8437f26
+Merge: 9b2e90e 78b271e
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 19 15:33:22 2019 +0200
+
+    [fix] play book
+
+commit 78b271e3eaf5c455808361e2a14e297bc3a00012
+Merge: 7e18655 1a0bd3e
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 19 13:42:42 2019 +0200
+
+    Merge branch 'develop' of https://github.com/pawelwelfle/CoachHelper into develop
+
+commit 9b2e90e73ad9f7fb03bcc739b3fe6fa99e0d9b11
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 19 13:40:24 2019 +0200
+
+    [fix] Kamil suggestions implementation
+
+commit 1a0bd3e7e03abc1642710cb194753823d44b9b4e
+Merge: bf7063a e7d5e03
+Author: Kamil Celejewski <44023880+kcc112@users.noreply.github.com>
+Date:   Fri Jul 19 13:34:43 2019 +0200
+
+    Merge pull request #28 from Kristrox/dla_Kamila
+    
+    amendments from Kamil
+
+commit bf7063a6404ee77896995c40582fcd75fe6362a0
+Merge: 901b6c3 5edeae7
+Author: olgapps <24681131+olgapps@users.noreply.github.com>
+Date:   Fri Jul 19 13:00:29 2019 +0200
+
+    Merge pull request #26 from Kristrox/dla_Kamila
+    
+    Dla kamila
+
+commit e7d5e0348921b8bdd9c298e23b9ec628118b770e
+Author: olga <olg262@gmail.com>
+Date:   Fri Jul 19 12:56:54 2019 +0200
+
+    amendments from Kamil
+
+commit f134f2c3b65aaaa6bb4176cad10673c7d3a0c2bb
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 19 11:39:10 2019 +0200
+
+    [add] new schema
+
+commit 99035914cf32b00207da7edf8d80d18880e87e17
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 19 11:28:27 2019 +0200
+
+    [add] index test for players controller
+
+commit 5edeae7e04058bacfd6b2ce7fcf216f1ae43386b
+Author: olga <olg262@gmail.com>
+Date:   Fri Jul 19 09:39:09 2019 +0200
+
+    some changes in name variables
+
+commit 5d862cb40693901a6e10163a60a44511e8bb42ec
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 19 00:30:07 2019 +0200
+
+    [add] players controler index test, new gem rails-controller-testing [mod] player factory to fit new shema
+
+commit 7e18655c6787da43ef2a815e670820534f88b2da
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Thu Jul 18 23:38:38 2019 +0200
+
+    [add] model injury and user tests [fix] validate_numericality_of in player model test, now is checking conditions
+
+commit d95dcee24ed3e87e0f6ee5a1580140ebc8cfbb2a
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Thu Jul 18 21:35:12 2019 +0200
+
+    [add][test] add number on ball should should be on tshirt this will change
+
+commit edb75ef4829d988e4935f4a723363b93d3a24a33
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Thu Jul 18 12:53:51 2019 +0200
+
+    [fix] schema
+
+commit 1fcf7a3d5c06321d3ccbd03e8af99b6e82985982
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Thu Jul 18 10:50:00 2019 +0200
+
+    [delete] unused components and [refactor] existing ones
+
+commit 9e40e5358f149a2e31482c7ca1fb0a8af250aea7
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Thu Jul 18 09:43:02 2019 +0200
+
+    [fix] fixed canvas scaling konva
+
+commit 76d5a7a16b90e6fc89c744803bc0f7dc82452d89
+Merge: e28aaca 0c5c260
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Thu Jul 18 00:57:10 2019 +0200
+
+    [add] konva
+
+commit 3543a3b5185f958b13d31ce9c5056c30354f567a
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Wed Jul 17 22:28:56 2019 +0200
+
+    ValidationOfUniquenessOfNumber
+
+commit c6a6991b7f765ec301bc3ac11b902744e8f1140c
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Wed Jul 17 22:16:43 2019 +0200
+
+    LittleFixesAndValidationOfPlayerParams
+
+commit 0e68c1e5a020c0293f23c29f4912a135ba2620e3
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Wed Jul 17 21:20:25 2019 +0200
+
+    HomePageChangesWithLinkToEventsLink
+
+commit 1b78b3aa1caec1c0896a4769dd7ac5b752f802d4
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Wed Jul 17 20:54:02 2019 +0200
+
+    EventCreatorNewModelControllerAndViews
+
+commit 9f75f4f57682ad22bb2cabdf049b136f3ba497cb
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Wed Jul 17 16:42:01 2019 +0200
+
+    CreateCalendarReactComponent
+
+commit 8c9cce25d002ec5e222bb6af0a82cfd348df48fc
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Wed Jul 17 13:23:24 2019 +0200
+
+    NothingSpecial
+
+commit 0c5c260f8c2d536b1eb862d24328a00f263a4344
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Wed Jul 17 13:18:05 2019 +0200
+
+    [add] new schema
+
+commit e149e3b4fbd5b256adb6ebd9b41c7bac994200ad
+Merge: 8adb972 901b6c3
+Author: olga <olg262@gmail.com>
+Date:   Wed Jul 17 13:06:44 2019 +0200
+
+    conflicts resolved
+
+commit e28aaca4feb9387f38ec56f6336a05c90a5555b8
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Wed Jul 17 13:06:35 2019 +0200
+
+    [fix] DrawerField scaling fix by Kamil
+
+commit 8adb97224a6ca2691a1600ceb5a0535e57caa485
+Author: olga <olg262@gmail.com>
+Date:   Wed Jul 17 13:03:22 2019 +0200
+
+    commit
+
+commit 282692ce9b64d3be247652e03c29cae7ad906d20
+Author: olga <olg262@gmail.com>
+Date:   Wed Jul 17 13:02:46 2019 +0200
+
+    commit before merge
+
+commit 901b6c3358ffb2b0a7500700082aeacbcf39b528
+Merge: 0282e84 451a953
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 17 12:59:29 2019 +0200
+
+    Merge pull request #24 from Kristrox/FixFootballField
+    
+    [Fix] FixFootballField
+
+commit 451a953db19d586ba3a05ac576cf37ca556ab1a1
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Wed Jul 17 12:56:23 2019 +0200
+
+    FixFootballField
+
+commit 0282e8467a26729f9f6a3bd6afb6e56213f65c48
+Merge: 5bc38c2 62bf3fb
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 17 12:42:38 2019 +0200
+
+    Merge pull request #23 from Kristrox/ball_drag_and_drop
+    
+    [Add] Ball drag and drop
+
+commit 62bf3fbc94f541aee0ee7b4bdd3c3f73de24dc36
+Merge: 9af20c9 5bc38c2
+Author: olgapps <24681131+olgapps@users.noreply.github.com>
+Date:   Wed Jul 17 12:39:46 2019 +0200
+
+    Merge branch 'develop' into ball_drag_and_drop
+
+commit 5bc38c27720c0a1f3dd9257d0ebdee8e8abf2fea
+Merge: 8642bec da9de1d
+Author: pawelwelfle <49279196+pawelwelfle@users.noreply.github.com>
+Date:   Wed Jul 17 12:30:02 2019 +0200
+
+    Merge pull request #22 from Kristrox/ModelRelations
+    
+    [Fix] FixedPlayersList
+
+commit da9de1d94c9daec791b08f84b7fb28ff685c6fe2
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Wed Jul 17 12:27:23 2019 +0200
+
+    [Fix] FixedPlayersList
+
+commit 9af20c9e4b82c2317b8f0b7440a403540757c738
+Author: olga <olg262@gmail.com>
+Date:   Wed Jul 17 12:27:02 2019 +0200
+
+    working drag and drop for ball
+
+commit 9c0b93c80322629368e51280e45f0630aecfe67f
+Author: olga <olg262@gmail.com>
+Date:   Wed Jul 17 10:29:59 2019 +0200
+
+    implementaion of loop for containers display and order with keys
+
+commit 8642bec583bf67e28710bf00f44c595f08d77a9a
+Merge: 69ace14 78723e5
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 17 09:59:37 2019 +0200
+
+    Merge pull request #21 from Kristrox/ModelRelations
+    
+    Model relations
+
+commit 78723e5d39edebbbeb4bb5c75a46347292a2b5f4
+Merge: 1e4e74b 69ace14
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Wed Jul 17 09:56:28 2019 +0200
+
+    FixConflicts
+
+commit 69ace14841f12e58fcf833d78c3f3d8d008a6883
+Merge: 267b4d1 e6a2dff
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 17 09:52:17 2019 +0200
+
+    Merge pull request #20 from Kristrox/AddDrawerToPlaybook
+    
+    Update List Of Players
+
+commit e6a2dff95c64bfb82d77d47a67b8df441e661712
+Merge: 9722791 267b4d1
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 17 09:51:31 2019 +0200
+
+    Merge branch 'develop' into AddDrawerToPlaybook
+
+commit 1e4e74b9c787e94efd54c7ed8e26f202647f1a91
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Wed Jul 17 09:41:56 2019 +0200
+
+    AddInjuryModel
+
+commit 24d60431263c44a66f94082fe3e1443d557c2123
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Wed Jul 17 09:41:45 2019 +0200
+
+    AddInjuryModel
+
+commit 97227918026a13948eb2908a8988e2a5b883fb43
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Wed Jul 17 09:35:57 2019 +0200
+
+    ListOfPlayerNewUpdates
+
+commit 3bff873dde976346ad106599a86f5e27ed005751
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Tue Jul 16 23:59:44 2019 +0200
+
+    [add] new mwthodt method of drawing using canvas
+
+commit 4bd9b538b07e4061a5193a216173a2580283c7f7
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Tue Jul 16 16:57:07 2019 +0200
+
+    DeletePlayersColumnsAndAddNewOne
+
+commit f7b2650a30b56862cc11a3d65f5767c892466680
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Tue Jul 16 14:58:44 2019 +0200
+
+    CssChangesAndFontChange
+
+commit 715fd429990f16cf55d7217e1a2feb219dba841d
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Tue Jul 16 14:22:04 2019 +0200
+
+    [fix] button
+
+commit 267b4d1c317e5f8b33ffa73963417f84b7ae8f5a
+Merge: 2b7ed63 ef5a11f
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Tue Jul 16 14:16:19 2019 +0200
+
+    Merge pull request #19 from Kristrox/DatabaseTablesCreateFinal
+    
+    Add Active Storage And Tables Update
+
+commit ef5a11ffa564a5bc8f6acda2b3e2d781fb6f11b8
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 16 14:10:15 2019 +0200
+
+    AddActiveStorageAndTablesUpdate
+
+commit 4b15c5ee63763015d5a158e8eac7d3f10f299a98
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Tue Jul 16 12:52:21 2019 +0200
+
+    NothingSpecialJustSomeNewTableRow
+
+commit 2b7ed6337bfe53f691786d897605bed4a8e712ec
+Merge: 95a3292 be19c8b
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Tue Jul 16 12:51:14 2019 +0200
+
+    Merge pull request #18 from Kristrox/DatabaseTablesCreateFinal
+    
+    Database tables create final
+
+commit be19c8be0a34ea6ddeb4ee444aa67c4251f5a99c
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 16 12:47:46 2019 +0200
+
+    AddPlayersTable
+
+commit 57efb42764e74be6f61fb5189bf05dbc198f849b
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Tue Jul 16 12:28:03 2019 +0200
+
+    ClearViewOfListOfPlayers
+
+commit 0617d779aec94ab5ff2aeba3e0392e7d5e358bc9
+Merge: bdd9144 95a3292
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Tue Jul 16 12:07:59 2019 +0200
+
+    mv draw_area component to DrawerField component
+
+commit bdd91444bc8e8d3335a95d4de8f1c007fc58fcc1
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Tue Jul 16 11:43:09 2019 +0200
+
+    [fix] draw area [add] scss for playbook
+
+commit 872b42f3cb4224285fff9877bd71d745d9170142
+Author: olga <olg262@gmail.com>
+Date:   Tue Jul 16 10:15:06 2019 +0200
+
+    initial drag and drop for ball
+
+commit 9dda9ddb8a4026bc002f0f88b3915909534c9d38
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Tue Jul 16 09:45:45 2019 +0200
+
+    LittleChangesInController
+
+commit 2d7c6e5e0578ea62a7e9ec9975228a1e80405d37
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 16 09:14:52 2019 +0200
+
+    AddClassesToPlayBooks
+
+commit 2307da87bbfb49322e29ca7ee61b5896d91bde19
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Mon Jul 15 21:31:18 2019 +0200
+
+    [add] draw_area react component, immutable
+
+commit 999976f78ab8780e7d72535ba046284f17def0e1
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Mon Jul 15 16:44:53 2019 +0200
+
+    DataBaseChanges
+
+commit 18856f941b63bf11db319393ef600130a8ede63d
+Merge: 0713fdb 95a3292
+Author: olga <olg262@gmail.com>
+Date:   Mon Jul 15 16:23:39 2019 +0200
+
+    removing examples of pictures from playbook
+
+commit 95a3292f13b5f92befc526846fb57866062debb7
+Merge: 1998e93 ec5ab3c
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Mon Jul 15 16:12:50 2019 +0200
+
+    Merge pull request #17 from Kristrox/FullScreenPlayBook
+    
+    [Add] Full Screen Support And Component Boxes
+
+commit ec5ab3c6cf374ac8aaeb23becb62af8d29e2bc6d
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Mon Jul 15 16:01:53 2019 +0200
+
+    ChangedPlayBookClassName
+
+commit 057a1c4f54dee69bdc7d467f1cb933452b56838b
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Mon Jul 15 15:56:53 2019 +0200
+
+    FullScreenSupportAndComponentBoxes
+
+commit 0713fdbfcaacf96390c55cb3061d772ce7c7d9a3
+Merge: 84b347b 1998e93
+Author: olga <olg262@gmail.com>
+Date:   Mon Jul 15 12:41:46 2019 +0200
+
+    Merge branch 'develop' into players
+
+commit 1998e93197d3b27c7051d861e382f06af4ac294f
+Merge: ba4e0a9 03ef918
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Mon Jul 15 12:27:41 2019 +0200
+
+    Merge pull request #16 from Kristrox/TeamButtonHotFix
+    
+    AddButtonFix
+
+commit ba4e0a9e2f9592cb5fc3fc0ba0c41ae2797f9408
+Merge: a9c6d50 5bfe8de
+Author: Kamil Celejewski <44023880+kcc112@users.noreply.github.com>
+Date:   Mon Jul 15 12:26:28 2019 +0200
+
+    Merge pull request #15 from Kristrox/fix/background
+    
+    [fix] final background fix
+
+commit 03ef918e8eb715e88d299a49c6a31400d850e446
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Mon Jul 15 12:24:41 2019 +0200
+
+    AddButtonFix
+
+commit 5bfe8de9a7dad190f78537cb4572640620f8fc21
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Mon Jul 15 12:12:02 2019 +0200
+
+    final background fix
+
+commit a9c6d50306c610cd84255667aaab75fcaef1da51
+Merge: e4bf2b7 b26e4e1
+Author: Kamil Celejewski <44023880+kcc112@users.noreply.github.com>
+Date:   Mon Jul 15 09:34:15 2019 +0200
+
+    Merge pull request #14 from Kristrox/wip/tests
+    
+    Wip/tests
+
+commit b26e4e1c88647395a920992cbe16d7a60e27aeda
+Merge: 3e58e5e e4bf2b7
+Author: Kamil Celejewski <44023880+kcc112@users.noreply.github.com>
+Date:   Mon Jul 15 09:34:02 2019 +0200
+
+    Merge branch 'develop' into wip/tests
+
+commit e4bf2b7cc18f28ad4569d7cdfaaec6de45334aee
+Merge: 6e21325 b9744d5
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Mon Jul 15 09:31:35 2019 +0200
+
+    Merge pull request #13 from Kristrox/players
+    
+    AddPlayers
+
+commit 84b347be5dae96f09e812ae47b3591a8d92d4f8f
+Author: olga <olg262@gmail.com>
+Date:   Mon Jul 15 09:29:27 2019 +0200
+
+    new Gemfile for bootstrap_form
+
+commit 6e21325744bba8328764eeeff2229a9e951a9740
+Merge: b2ab9d0 b243c5a
+Author: Kamil Celejewski <44023880+kcc112@users.noreply.github.com>
+Date:   Mon Jul 15 09:22:33 2019 +0200
+
+    Merge pull request #12 from Kristrox/fix/background
+    
+    +@media css
+
+commit 3e58e5ebfd69a9f1114b24de9ddc2280a67f61d4
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Mon Jul 15 09:05:33 2019 +0200
+
+    [delete] gems
+
+commit ad90cfe2e765ba70438904f4f8cfe14fa1f61d68
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Sun Jul 14 22:43:43 2019 +0200
+
+    [add] model rspec test, model logic and rubocop(fixed some gemfile errors)
+
+commit b9744d56a7ce8c0ccc81f353a45c036c1a91d412
+Author: olga <olg262@gmail.com>
+Date:   Sun Jul 14 21:04:18 2019 +0200
+
+    players list with edit option and some bootstrap
+
+commit 979907b803aa513f091b8f9e1497668426e471c6
+Author: olga <olg262@gmail.com>
+Date:   Sun Jul 14 17:09:07 2019 +0200
+
+    players list with delay and add option
+
+commit 6ab008149246ab7ab9fa0024d10ff26d84ec3778
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Sun Jul 14 16:01:37 2019 +0200
+
+    add rspec
+
+commit b2ab9d0be26a69a065773a8e0f7a42eeba0def73
+Merge: 7bc49b1 70511d6
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Sat Jul 13 18:12:28 2019 +0200
+
+    Merge branch 'develop' of https://github.com/pawelwelfle/CoachHelper into develop
+
+commit b243c5ad720ca80850126f8fc29bba0f63fea267
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Sat Jul 13 18:11:12 2019 +0200
+
+    +@media css
+
+commit 70511d66d0a1110016317224ac4ccda3d6868044
+Merge: 2d1dc16 a758d69
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 17:09:55 2019 +0200
+
+    Merge pull request #11 from Kristrox/master
+    
+    Merge pull request #10 from Kristrox/develop
+
+commit a758d696a9c147eab8340c701fb4977c2bc30c1f
+Merge: f073217 2d1dc16
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 17:09:31 2019 +0200
+
+    Merge pull request #10 from Kristrox/develop
+    
+    CleanUp
+
+commit 0de9558220afe48f9a4e68d94a33c17168e3f7f2
+Merge: 2e7e10b 2d1dc16
+Author: olga <olg262@gmail.com>
+Date:   Fri Jul 12 17:04:25 2019 +0200
+
+    cleaning
+
+commit 2e7e10bc8524c63daa1076246590c68a120f907a
+Author: olga <olg262@gmail.com>
+Date:   Fri Jul 12 17:02:55 2019 +0200
+
+    changes
+
+commit 7bc49b186db9292dbdadddf8203e5783e6fa02a8
+Merge: 27a2794 2d1dc16
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 12 16:58:18 2019 +0200
+
+    Merge branch 'develop' of https://github.com/pawelwelfle/CoachHelper into develop
+
+commit 27a2794b2882d028f82b7fcba25b442e06e23583
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 12 16:58:14 2019 +0200
+
+    cleaning
+
+commit 2d1dc169420c196c8bddb27941e58779aff32d91
+Merge: 07af0b9 6bba671
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 16:56:35 2019 +0200
+
+    Merge pull request #9 from Kristrox/clean_develop
+    
+    Clean develop
+
+commit 6bba6714ce2e0007602792895c250bde61d1efa2
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 16:52:23 2019 +0200
+
+    FinalCleanup
+
+commit a3cf87a18e90d0c48215432489a33362f4b831e1
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 16:34:38 2019 +0200
+
+    ConversionHtmlToHaml
+
+commit e05307ae0a9567cbd8b4c5f56cd63b4c367874c2
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 16:34:08 2019 +0200
+
+    HamlFix
+
+commit 559af4d4fc1cdca4d42fbf1667c86ac3f837f5bb
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 16:29:54 2019 +0200
+
+    AddCoffe
+
+commit 3b8debabf1aaf6051703c0f1b2a56a5d18969b12
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 16:28:16 2019 +0200
+
+    ProjectFixV1
+
+commit 0d7e96e36f056d60aaf94843c8bad43a4745c741
+Merge: 2e35b89 07af0b9
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 12 15:37:23 2019 +0200
+
+    Merge branch 'develop' of https://github.com/pawelwelfle/CoachHelper into develop
+
+commit 2e35b892b117e0aaa4e2ec4b78d06348b2a69b84
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 12 15:37:15 2019 +0200
+
+    Delete a calendar
+
+commit 1c8beb3366788e2cf2ed6ac9b41a11c466a03f2a
+Merge: 66add95 07af0b9
+Author: olga <olg262@gmail.com>
+Date:   Fri Jul 12 15:35:22 2019 +0200
+
+    Merge branch 'develop' of https://github.com/pawelwelfle/CoachHelper into develop
+
+commit 66add953b59af4ab9297cee41d8b9c87f346a4d3
+Author: olga <olg262@gmail.com>
+Date:   Fri Jul 12 15:35:12 2019 +0200
+
+    without calendar
+
+commit 07af0b96a7a383b03b49d7236984e21ca941381e
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 15:33:58 2019 +0200
+
+    DevelopFix
+
+commit 2ec89db0f023899eb1ac8d9525e8e48f068fa324
+Merge: e373c40 1fddedd
+Author: olga <olg262@gmail.com>
+Date:   Fri Jul 12 15:30:57 2019 +0200
+
+    Merge branch 'develop' of https://github.com/pawelwelfle/CoachHelper into develop
+
+commit e373c40aacea9aa9a48a64a8493aa34daee6fc51
+Merge: cd2494f f073217
+Author: olga <olg262@gmail.com>
+Date:   Fri Jul 12 15:21:57 2019 +0200
+
+    OlgaM
+
+commit 1fddedd847bb209aff6c770d8f3de17754381a33
+Merge: 8e7016d f073217
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Fri Jul 12 15:17:03 2019 +0200
+
+    Merge branch 'develop' of https://github.com/pawelwelfle/CoachHelper into develop
+
+commit 8e7016db7884ce455dc69c9c5bc9d39d14666da6
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Fri Jul 12 15:16:57 2019 +0200
+
+    XD
+
+commit f0732178c4fe1e9234c81204621f52bb33497d47
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 12 14:50:02 2019 +0200
+
+    fixed background registration
+
+commit 7600134a51d120e3973fc16ee88643329dcefae3
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 12 14:45:15 2019 +0200
+
+    fixed background
+
+commit 1060c2f4f56f49d23f8d69fa4353b9d8ff170d37
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 12 12:53:01 2019 +0200
+
+    db migrate delete git add .
+
+commit 1c7f0f1f573d413d4b06ecf92744915d34df08a0
+Merge: 312ed7c aad795b
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 12 12:38:19 2019 +0200
+
+    Merge branch 'master' of https://github.com/pawelwelfle/CoachHelper
+
+commit 312ed7c75b9bf6f16998b95f0c08c298ccf6c6c5
+Merge: 698b23f 55421fb
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 12 12:37:28 2019 +0200
+
+    empty line no nothing interesting
+
+commit aad795bd3a2591394e77effe32164890b5069a29
+Merge: 9b688a1 55421fb
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Fri Jul 12 12:35:25 2019 +0200
+
+    Merge branch 'master' of https://github.com/pawelwelfle/CoachHelper
+
+commit 698b23fc380a04c16dcd17dcff8fa213f9115d30
+Merge: 07e79bb a610881
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 12 12:34:51 2019 +0200
+
+    db new shema
+
+commit 9b688a1550724b03e7b24a4cebb8822c9d1e0bbe
+Merge: f66a6df 07e79bb
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Fri Jul 12 12:31:07 2019 +0200
+
+    Merge branch 'master' of https://github.com/pawelwelfle/CoachHelper
+
+commit 55421fb1705d0c8ee1ac0d8cc76a8ca62ccc42b8
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 12:28:24 2019 +0200
+
+    GemFile
+
+commit f66a6df6ab2166c8fa3ff1e61331630a54dc6f7f
+Merge: 274b34c ba27b36
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Fri Jul 12 12:24:07 2019 +0200
+
+    Merge branch 'master' of https://github.com/pawelwelfle/CoachHelper
+
+commit a6108817c05832f9c14837e620f7ab1f1c2b4693
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Fri Jul 12 12:23:05 2019 +0200
+
+    fixed bootstrap ver3 to ver4
+
+commit 07e79bb6ffcae06e7a3a4eedf015feeb03125c24
+Merge: ba27b36 cd2f89d
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 12:09:53 2019 +0200
+
+    Merge pull request #8 from pawelwelfle/SideBarPartial
+    
+    Side bar partial
+
+commit cd2f89d465fdcb1b3b5bf0400aba6d8fe3e70f64
+Merge: 1a86a76 ba27b36
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 12:09:40 2019 +0200
+
+    Merge branch 'master' into SideBarPartial
+
+commit 1a86a768f2aa487582e30a5be024ebc421bdae73
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 12:07:29 2019 +0200
+
+    AddSideBarRoutesAndCleanUpCode
+
+commit cd2494f8e532bc20654f0f3f6d540230a25971a6
+Merge: ba27b36 8c7cba1
+Author: olga <olg262@gmail.com>
+Date:   Fri Jul 12 09:58:06 2019 +0200
+
+    player list merge
+
+commit c87936a7d48e7078056e8b2eaf81630b1360137f
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 09:48:48 2019 +0200
+
+    AddNewPlayBook
+
+commit 8c7cba19104ec3ccbcbeb70e12d37234b809c94d
+Author: olga <olg262@gmail.com>
+Date:   Fri Jul 12 09:41:16 2019 +0200
+
+    players list with create function
+
+commit 274b34ce9178359e4d8800c27b43569da512a224
+Merge: a58f6b7 c52651a
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Fri Jul 12 09:22:17 2019 +0200
+
+    edit
+    Merge branch 'SimpleCalendarx'
+
+commit c52651a2d27bedac85e7b43e247d8803fd4666f2
+Merge: 580d898 a58f6b7
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Fri Jul 12 09:18:52 2019 +0200
+
+    fix
+
+commit ba27b36e29bec5bb08a710963c8b86eceb38bdfd
+Merge: cdb6965 f8e14f3
+Author: pawelwelfle <49279196+pawelwelfle@users.noreply.github.com>
+Date:   Fri Jul 12 09:12:30 2019 +0200
+
+    Merge pull request #6 from pawelwelfle/dependabot/npm_and_yarn/lodash-4.17.14
+    
+    Bump lodash from 4.17.11 to 4.17.14
+
+commit cdb696506c7331f663b88deb6bfcd21e290278e1
+Merge: f809771 f988ef3
+Author: pawelwelfle <49279196+pawelwelfle@users.noreply.github.com>
+Date:   Fri Jul 12 09:12:13 2019 +0200
+
+    Merge pull request #5 from pawelwelfle/dependabot/npm_and_yarn/lodash.template-4.5.0
+    
+    Bump lodash.template from 4.4.0 to 4.5.0
+
+commit f8e14f3bf4d22c8197ec14c8e28069134fb9fc23
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jul 12 07:10:09 2019 +0000
+
+    Bump lodash from 4.17.11 to 4.17.14
+    
+    Bumps [lodash](https://github.com/lodash/lodash) from 4.17.11 to 4.17.14.
+    - [Release notes](https://github.com/lodash/lodash/releases)
+    - [Commits](https://github.com/lodash/lodash/compare/4.17.11...4.17.14)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit f988ef37a03fe9665f4c1a42db70e3cb8c32a66b
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jul 12 07:09:58 2019 +0000
+
+    Bump lodash.template from 4.4.0 to 4.5.0
+    
+    Bumps [lodash.template](https://github.com/lodash/lodash) from 4.4.0 to 4.5.0.
+    - [Release notes](https://github.com/lodash/lodash/releases)
+    - [Commits](https://github.com/lodash/lodash/compare/4.4.0...4.5.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit a58f6b7fcd9d4871cc1cc2c6c75c3a7fd286533e
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Fri Jul 12 09:04:22 2019 +0200
+
+    Calendar
+
+commit a1050702278852776fc0d76d7c7a90e6c3a6f432
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 08:57:45 2019 +0200
+
+    SassFix
+
+commit c808044bf0a4daef8717cd013e234f37684edc60
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Fri Jul 12 08:55:34 2019 +0200
+
+    AddSidebarFuc
+
+commit f809771eae24a230fd6325ef7d62a7c9e1183e50
+Merge: a2130ca acdc12a
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Thu Jul 11 23:12:12 2019 +0200
+
+    marge new login register layout, cheanged old gem 'bootstrap', '~> 4.3.1' to new gem 'bootstrap-sass', '~>3.4.1'
+
+commit acdc12a9bd06f4923f3d748c18a12dce92f086b8
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Thu Jul 11 21:25:28 2019 +0200
+
+    delete unused backgrounds and organizmied css file
+
+commit 580d8981f2f7e24ba0758a05c1f0fc28bb87ad39
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Thu Jul 11 14:22:51 2019 +0200
+
+    Simple Calendar Add
+
+commit a2130cac5a7c41f52ce87fbedbd7010ddfa7050b
+Merge: f7cf42d 1a9b67c
+Author: pawelwelfle <49279196+pawelwelfle@users.noreply.github.com>
+Date:   Thu Jul 11 14:13:49 2019 +0200
+
+    Merge pull request #3 from pawelwelfle/SideBarPartial
+    
+    AddSideBarV1
+
+commit 1a9b67c288c08c20a8c94dcfa7274c126ef4a2a5
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Thu Jul 11 14:09:39 2019 +0200
+
+    AddSideBarV1
+
+commit cc284fdcb395462d37d64d14b7aa9ccb8847ae3b
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Thu Jul 11 13:21:40 2019 +0200
+
+    responsivity, background, log in/out style
+
+commit f7cf42d2e92bf8583d11187205cec0f404266a55
+Merge: a9637d8 934dc47
+Author: pawelwelfle <49279196+pawelwelfle@users.noreply.github.com>
+Date:   Thu Jul 11 10:37:30 2019 +0200
+
+    Merge pull request #2 from pawelwelfle/AddDotValidation
+    
+    Dot Validation
+
+commit 934dc47d1db70888ff18d06a9c0024b33a86ea22
+Author: pawelwelfle <pawel.welfle@gmail.com>
+Date:   Thu Jul 11 10:34:13 2019 +0200
+
+    Dot Validation
+
+commit 036d03d9273383a0290c45eda1a97aa31637f555
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Thu Jul 11 00:40:12 2019 +0200
+
+    new style for sign up
+
+commit 7e2155b35c9e27f3a0a4d97286ec9ac8169f5662
+Author: Kamil Celejewski <kamil12283@gmail.com>
+Date:   Wed Jul 10 15:17:59 2019 +0200
+
+    scss + bootstrap + sessions/new.html style
+
+commit a9637d84055f3f62983c3483530bebc84424fcc5
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Wed Jul 10 11:18:35 2019 +0200
+
+    Erb2HamlConversion
+
+commit c3b25b99c5e6a7ce674f8ce4ffb2df7d90a1bdb0
+Merge: 77825de 80c0008
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Wed Jul 10 10:35:45 2019 +0200
+
+    Merge branch 'master' of github.com:pawelwelfle/CoachHelper
+
+commit 77825ded1d6107e3b436ba6ef9cb181742ce8733
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Wed Jul 10 10:35:40 2019 +0200
+
+    AddSeed
+
+commit 80c0008860f7cfbcca780925af63e26f1fbd2fa7
+Merge: d308421 ef3b3cd
+Author: Krzysztof Wiedenski <215914@edu.p.lodz.pl>
+Date:   Wed Jul 10 10:07:04 2019 +0200
+
+    Merge pull request #1 from pawelwelfle/LoginRegister
+    
+    Add login register and redirect to Home view.
+    Add password constraints and Team display.
+
+commit ef3b3cd2b258c6f09ba7fcf5553403948315266e
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Wed Jul 10 10:03:40 2019 +0200
+
+    AddPasswordConstraintsAndTeamDisplay
+
+commit 440eebf9528a561fd542bf9cd582c9960e61885b
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 9 21:27:40 2019 +0200
+
+    AddLoginRegisterAndRedictToHomePage
+
+commit d308421d317e2d8d0d1345a7425e8868baf1b300
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 9 15:02:58 2019 +0200
+
+    GitIgnore
+
+commit 11be2dd5d2a4c7a404359440c5c21097ea8b7394
+Author: Kristrox <215914@edu.p.lodz.pl>
+Date:   Tue Jul 9 14:42:55 2019 +0200
+
+    Init commit

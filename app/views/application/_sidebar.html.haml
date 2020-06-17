@@ -1,0 +1,26 @@
+
+-unless request.path.start_with?('/users')
+  #sidebar
+    %h3 Coach
+    %h4 Helper
+    %br 
+    %br
+    /%a.active{:href => "/team/index"}   
+    - if request.path.start_with?("/events")
+      =link_to "Team" , players_path, id: 'team', class: "a"
+      =link_to "Calendar" , events_path, id: 'events', class: "active a"
+      =link_to "Play Books" , new_play_book_path, id: 'play_books', class: "a"
+    - elsif request.path.start_with?("/players","/player")
+      =link_to "Team" , players_path,id: 'team', class: "active a"
+      =link_to "Calendar" , events_path, id: 'events', class: "a"
+      =link_to "Play Books" , new_play_book_path, id: 'play_books', class: "a"
+    - elsif request.path.start_with?("/play_books","/play_book")
+      =link_to "Team" , players_path,id: 'team', class: "a"
+      =link_to "Calendar" , events_path, id: 'events', class: "a"
+      =link_to "Play Books" , new_play_book_path, id: 'play_books', class: "active a"
+      -current_user.play_books.each do |n|
+        =link_to "#{n.id }) #{n.name}", play_book_path(id: n.id), id: 'play_books', class: "a"
+    - else 
+      =link_to "Team" , players_path,id: 'team', class: "a"
+      =link_to "Calendar" , events_path, id: 'events', class: "a"
+      =link_to "Play Books" , new_play_book_path, id: 'play_books', class: "a"

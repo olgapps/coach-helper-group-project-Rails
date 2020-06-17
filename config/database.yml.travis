@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: CoachHelper_development
+
+test:
+  <<: *default
+  database: CoachHelper_test
+
+production:
+  <<: *default
+  database: CoachHelper_development

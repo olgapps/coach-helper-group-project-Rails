@@ -1,0 +1,232 @@
+// Place all the styles related to the Events controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.content {
+  text-align: center;
+}
+
+.content2nd {
+  // background-color:s grey;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  margin-top: 2%;
+}
+
+.content2nd.play_books {
+  padding-bottom: 15px;
+}
+
+.content2nd.play_books.show {
+  padding-bottom: 30px;
+}
+
+.content2nd.play_books.new {
+  background: rgba(163, 158, 158, 0.5);
+  background-size: contain;
+  padding-bottom: 11%;
+  // padding-bottom: 100px;
+}
+
+.form.group {
+  margin-bottom: 0rem;
+  width: 50% !important;
+}
+
+tr.rate {
+  color: white;
+}
+
+h1.event {
+  font-size: 40px;
+  color: white;
+}
+
+%td.create {
+  color: white;
+  font-size: 30px;
+}
+
+.input-group-text {
+  height: 40%;
+  margin-top: 35px;
+  margin-left: 10px;
+  border-radius: 25%;
+}
+
+.actions {
+  margin-top: 1.2rem;
+  // margin-left: 5%;
+}
+
+.card-body {
+  justify-content: center;
+  // margin-left: 37%;
+  text-align: left;
+}
+
+.card-body.event {
+  text-align: center;
+}
+
+// tr:hover {
+//   background-color: lightgreen;
+// }
+
+td.date,
+td.date1 {
+  font-size: 23px;
+}
+
+td.date {
+  background-color: lightgreen;
+}
+
+// td.date1{
+//   background-color: #1daf3871;
+//   color: white;
+// }
+
+// td.date2{
+//   background-color: greenyellow;
+// }
+
+td.list {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+td.date.ls,
+td.date1.ls {
+  margin: 30px;
+}
+
+td,
+th {
+  position: relative;
+}
+
+// td:hover::after,
+// th:hover::after {
+//   content: "";
+//   position: absolute;
+//   background-color: #ffa;
+//   left: 0;
+//   top: -5000px;
+//   height: 10000px;
+//   width: 100%;
+//   z-index: -1;
+// }
+
+.field {
+  text-align: center;
+}
+table {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+p.content {
+  background-color: aquamarine;
+}
+
+td {
+  text-align: center;
+  font-size: 25px;
+}
+
+// tr{
+//   background-color: #1daf3871;
+tr {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+tr.list:nth-child(odd) {
+  background-color: #4caf50; // #f2f2f2;
+}
+
+tr.list {
+  height: 10%;
+  color: white;
+  font-weight: bold;
+}
+
+.btn {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+button.btn.btn-outline-primary.btn-sm {
+  border-radius: 4.5px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(255, 180, 42);
+  padding: 5px 20px;
+  // background-color: rgb(184, 230, 184);
+  font-weight: bold;
+  border-color: rgb(255, 180, 42);
+}
+
+button.btn.btn-outline-primary.btn-sm:link {
+  color: white;
+}
+
+button.btn.btn-outline-primary.btn-sm:hover {
+  background-color: yellow;
+  border-color: yellow;
+  color: black;
+}
+
+button.btn.btn-outline-primary.btn-sm:hover:active {
+  background-color: lightgreen;
+  color: white;
+}
+
+button.btn.btn-outline-primary.btn-sm:hover::after {
+  color: red;
+  background-color: white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:hover::after {
+  color: #fff;
+  background-color: white;
+}
+
+.down {
+  width: 100%;
+}
+
+.downhalf {
+  width: 45%;
+  text-align: center;
+}
+
+.input-group-text {
+  height: 35px;
+  margin-top: 30px;
+
+  // width: 99px;
+  background-color: #4caf50 !important;
+}
+
+.input-group-append {
+  padding-top: 25px;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: white !important;
+}
+a:active {
+  color: white;
+}

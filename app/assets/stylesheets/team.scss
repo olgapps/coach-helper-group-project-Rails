@@ -1,0 +1,159 @@
+// Place all the styles related to the Team controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.content {
+  //    position:initial;
+  text-align: center;
+}
+
+.form-group.final {
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #ffa;
+}
+
+// tr:hover {
+//   background-color: #ffa;
+// }
+
+.field.plej {
+  font-size: 40px;
+}
+
+td,
+th {
+  position: relative;
+}
+td:hover::after,
+th:hover::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(22, 19, 19, 0.5);
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
+}
+
+table {
+  overflow: hidden;
+
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+
+p.content {
+  background-color: aquamarine;
+}
+
+td {
+  text-align: center;
+}
+
+tr.list {
+  height: 10%;
+  color: white;
+  font-weight: bold;
+}
+
+.btn {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.suspended {
+  background-color: #ff1a1a;
+}
+
+.available {
+  background-color: lightgrey;
+}
+tr.list:nth-child(odd) {
+  background-color: #4caf50; // #f2f2f2;
+}
+
+tr.list {
+  height: 10%;
+  color: white;
+  font-weight: bold;
+}
+
+.btn {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.suspended {
+  background-color: #e60000;
+}
+
+.available {
+  background-color: lightgrey;
+}
+
+h1.event.play {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100px;
+  font-size: 60px;
+}
+
+.btn-outline-primary.playerbutton:hover {
+  color: black;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-outline-primary.playerbutton {
+  color: black;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 60px;
+  width: 200px;
+  max-width: 70%;
+  min-width: 50px;
+}
+
+h1.event.play {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100px;
+  font-size: 60px;
+}
+
+.btn-outline-primary.playerbutton:hover {
+  color: black;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-outline-primary.playerbutton {
+  color: black;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 60px;
+  width: 200px;
+  max-width: 70%;
+  min-width: 50px;
+}
+
+.przycisk {
+  color: black;
+  padding: 10px;
+  background-color: #4caf50;
+  border-color: #4caf50;
+  border-radius: 10px;
+  border-width: 2px;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.przycisk:hover {
+  color: black;
+  background-color: lightgreen;
+  border-color: lightgreen;
+  font-size: 30px;
+  margin-bottom: 0px;
+}

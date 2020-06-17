@@ -1,0 +1,23 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title CoachHelper
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+    = render partial: 'sidebar', style: "font-size: 40"
+    %body
+      .content.all
+        %h2.event.start
+        - if notice
+          %p.alert.alert-success= notice
+        %h1.event.start
+        - if alert
+          %p.alert.alert-danger= alert 
+        .content2nd
+    = yield
+    .content2nd.footer
+      %footer
+        %p Created by: @Krzysztof Wiedeński  @Paweł Welfle  @Olga Pietrzyk @Kamil Celejewski    BinarApps Summer Edition   Sponsored by: BinarApps   Year: 2019

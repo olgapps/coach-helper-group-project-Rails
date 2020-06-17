@@ -1,0 +1,28 @@
+
+.content
+  .content2nd
+    %h1.event Create New Event
+    = bootstrap_form_for @event do |f|
+      %table  
+        %tr
+          .form-group
+            #datetimepicker4.input-group.date{"data-target-input" => "nearest"}
+              -# %input.form-control.datetimepicker-input{"data-target" => "#datetimepicker4", :type => "text"}/
+              =f.text_field(:event_date, class: "form-control datetimepicker-input", data: {target:"#datetimepicker4"})
+              .input-group-append{"data-target" => "#datetimepicker4", "data-toggle" => "datetimepicker"}
+                .input-group-text
+                  Pick date
+                  %i.fa.fa-calendar
+          :javascript
+            $(function () {
+                $('#datetimepicker4').datetimepicker({
+                    format: 'L',
+                    format: 'YYYY-MM-DD'
+                });
+            });
+        %tr
+          .field
+            = f.text_field :opponent, class: "col-md-3 control-label"
+        .actions
+          = link_to 'Back', events_path
+          = f.submit "Submit"
